@@ -190,6 +190,22 @@
   margin-bottom: 0;
 }
 
+.work-card {
+  position: relative;
+}
+.work-card .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  width: 100%;
+  min-height: 70px;
+
+  text-align: center;
+}
+
 /* задаем шрифт сопровождающему тексту в карточке списка */
 /* задаем цвет шрифта сопровождающему тексту в карточке списка */
 .section.work .text {
