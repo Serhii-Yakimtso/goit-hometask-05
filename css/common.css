@@ -177,7 +177,20 @@ section.clients {
 
 /* задаем цвет шрифта текущего элемента навигации */
 .link.current {
+  position: relative;
   color: var(--main-accent-color);
+}
+
+.current::after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--main-accent-color);
 }
 
 /* задаем ховер и фокус элементам навигации */
