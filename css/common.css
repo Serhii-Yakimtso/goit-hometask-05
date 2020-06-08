@@ -78,7 +78,7 @@ img {
   outline: 1px solid tomato;
 } */
 
-.card-upper-text {
+/* .card-upper-text {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -86,7 +86,7 @@ img {
   padding: 0;
   border: 0;
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  overflow: hidden; */
 }
 /* header {
   background-color: turquoise;
@@ -114,7 +114,7 @@ section.clients {
 /* задаем минимально возможную высоту header */
 /* задаем цвет шрифта нафигации */
 /* задаем задний фон */
-.header.container {
+.page-header {
   display: flex;
   align-items: center;
   min-height: 80px;
@@ -133,7 +133,7 @@ section.clients {
 }
 
 /* задаем правый отступ от логотипа */
-.header .logo {
+.page-header .logo {
   margin-right: 85px;
 }
 

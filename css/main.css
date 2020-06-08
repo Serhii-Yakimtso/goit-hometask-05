@@ -526,6 +526,38 @@
   cursor: pointer;
 }
 
+.card-box {
+  position: relative;
+}
+.card-upper-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding-top: 63px;
+  padding-bottom: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  /* or 156% */
+  color: #ffffff;
+  letter-spacing: 0.03em;
+
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
+.card-area:hover .card-upper-text {
+  opacity: 1;
+}
+
 /* задаем внутрение утступы текстового контента карточки списка работ */
 /* задаем рамку (кроме верхней) текстовому контенту карточки списка работ */
 /* задаем нижние радиусы рамке текстового контента карточки списка работ */
