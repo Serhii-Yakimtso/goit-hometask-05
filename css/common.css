@@ -86,8 +86,8 @@ img {
   padding: 0;
   border: 0;
   clip: rect(0 0 0 0);
-  overflow: hidden; */
-}
+  overflow: hidden;
+} */
 /* header {
   background-color: turquoise;
 }
@@ -181,11 +181,11 @@ section.clients {
   color: var(--main-accent-color);
 }
 
-.current::after{
+.current::after {
   position: absolute;
   bottom: 0;
   left: 0;
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 4px;
